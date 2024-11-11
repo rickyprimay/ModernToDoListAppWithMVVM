@@ -12,6 +12,7 @@ struct ToDoListLearnApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(TaskModel())
         }
     }
 }
